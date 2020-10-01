@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML常见标签</title>
+</head>
+<>
+<!-- 详见 https://www.w3school.com.cn/ -->
+<a href="https://www.w3school.com.cn/" target="_self">W3Cschool 详细介绍HTML</a>
+
+<!-- 标题标签  h1最大  h6最小 -->
+<h1 align="left"> 标题1 </h1>
+<h2 align="center"> 标题2 </h2>
+<h3 align="right"> 标题3 </h3>
+<h4> 标题4 </h4>
+<h5> 标题5 </h5>
+<h6> 标题6 </h6>
+<!-- 超链接
+    a 标签是超链接
+      href 属性设置链接地址
+      target 属性设置哪个目标进行跳转
+        _self  表示当前页面
+        _blank 表示打开新的页面进行跳转
+ -->
+<a href="https://www.baidu.com" target="_self"> 这是一个超链接_self</a> <br>
+<a href="https://www.baidu.com" target="_blank"> 这是一个超链接_blank</a>
+
+<!--
+    列表:
+    ul 无序列表
+        type属性可以设置修改列表项前面符号
+    li 列表项
+    ol 有序列表
+-->
+<ul>
+    <li>三国演义</li>
+    <li>西游记</li>
+    <li>红楼梦</li>
+</ul>
+
+
+<ol>
+    <li>有序列表A</li>
+    <li>有序列表B</li>
+    <li>有序列表C</li>
+</ol>
+
+<!-- img 标签
+    src属性： 规定显示图像的 URL
+    alt属性： 规定图像的替代文本 文件找不到异常显示
+    align属性： 对齐方式
+    border属性：定义图像周围的边框
+    width属性： 设置宽度
+    height属性：设置高度
+-->
+
+<img src="1.jpg" alt="布偶猫" width="720" height="450">
+
+<!-- 表格标签
+    table表格标签
+        border 设置表格标签
+        width  设置表格宽度
+        height 设置表格高度
+        align   设置表格相对页面的对其齐方式
+    tr 行标签
+    th 表头标签
+    td 单元格标签
+        align 设置对其方式
+-->
+
+<table border="1" width="400" height="200">
+    <tr>
+        <th align="left" colspan="2">表头1</th>
+        <th>表头2</th>
+    </tr>
+    <tr>
+        <td rowspan="2">1.1</td>
+        <td>1.2</td>
+        <td>1.3</td>
+    </tr>
+    <tr>
+        <td>2.2</td>
+        <td>2.3</td>
+    </tr>
+</table>
+
+<iframe src="01-HTML简介.html" width="200" height="200">
+
+</body>
+</html>
